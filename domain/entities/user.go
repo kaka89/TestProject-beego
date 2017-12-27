@@ -1,7 +1,7 @@
 package entities
 
 import (
-	"github.com/astaxie/beego/orm"
+	//"github.com/astaxie/beego/orm"
 )
 
 type User struct {
@@ -13,5 +13,5 @@ type User struct {
 
 func init() {
 	// 需要在init中注册定义的model
-	orm.RegisterModel(new(User))
+	//orm.RegisterModel(new(User))
 }

@@ -24,7 +24,7 @@ var (
 // @Param	uid		path 	string	true		"The key for static block"
 // @Success 200 {object} dto.User
 // @Failure 403 :uid is empty
-// router [post]
+// @router [post]
 func (u *UserController) Post() {
 	var uDto dto.UserDto
 	json.Unmarshal(u.Ctx.Input.RequestBody, &uDto)

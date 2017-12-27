@@ -20,7 +20,9 @@ type UserRepository struct {
  * 存储至数据库
  */
 func (u *UserRepository) Save(user entities.User){
+	//SQL
 	var o = orm.NewOrm()//应该放到外面去
 	o.Using("default")
+	//	 ormer.Raw("UPDATE `user` SET `user_name` = ? WHERE `user_name` = ?", "slene", "testing").Exec()
 	o.Insert(&user)
 }
