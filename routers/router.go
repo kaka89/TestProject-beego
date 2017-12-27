@@ -1,7 +1,7 @@
 package routers
 
 import (
-	"TestProject/application/rest"
+	"TestProject-beego/application/rest"
 
 	"github.com/astaxie/beego"
 

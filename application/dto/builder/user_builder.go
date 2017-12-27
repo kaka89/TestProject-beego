@@ -1,8 +1,8 @@
 package builder
 
 import (
-	"TestProject/domain/entities"
-	"TestProject/application/dto"
+	"TestProject-beego/domain/entities"
+	"TestProject-beego/application/dto"
 )
 
 type UserBuilder struct{}

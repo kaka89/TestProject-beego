@@ -1,8 +1,8 @@
 package service
 
 import (
-	"TestProject/domain/entities"
-	"TestProject/infrastructure/repository"
+	"TestProject-beego/domain/entities"
+	"TestProject-beego/infrastructure/repository"
 )
 
 var (

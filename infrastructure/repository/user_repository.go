@@ -2,7 +2,7 @@ package repository
 
 import (
 	"github.com/astaxie/beego/orm"
-	"TestProject/domain/entities"
+	"TestProject-beego/domain/entities"
 
 )
 //todo 放在父类里面更合适
@@ -20,7 +20,7 @@ type UserRepository struct {
  * 存储至数据库
  */
 func (u *UserRepository) Save(user entities.User){
-	var o = orm.NewOrm()
+	var o = orm.NewOrm()//应该放到外面去
 	o.Using("default")
 	o.Insert(&user)
 }

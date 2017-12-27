@@ -1,12 +1,12 @@
 package rest
 
 import (
-	"TestProject/domain/service"
-	"TestProject/application/dto/builder"
+	"TestProject-beego/domain/service"
+	"TestProject-beego/application/dto/builder"
 	"encoding/json"
 	"github.com/astaxie/beego"
-	"TestProject/application/dto"
-	"TestProject/domain/entities"
+	"TestProject-beego/application/dto"
+	"TestProject-beego/domain/entities"
 )
 
 // Operations about Users
