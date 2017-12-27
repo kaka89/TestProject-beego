@@ -50,7 +50,7 @@
 ### REST API Controller
 ### dto
 ### entity
-### applicaton service
+### application service
 ### domain service
 
  
