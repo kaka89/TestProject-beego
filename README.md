@@ -52,6 +52,7 @@
 ### entity
 ### application service
 ### domain service
+### test
 
  
 # 如何运行
